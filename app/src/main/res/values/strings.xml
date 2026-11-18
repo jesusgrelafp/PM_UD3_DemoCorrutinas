@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Demo Corrutinas</string>
+
+    <string name="pulsame">Púlsame (%1$d)</string>
+    <string name="boton_thread_sleep">1. Esperar 3 s con Thread.sleep</string>
+    <string name="boton_delay">2. Esperar 3 s con delay</string>
+    <string name="boton_red_main">3. Descarga en el hilo principal</string>
+    <string name="boton_red_corrutina">4. Descarga con withContext(Dispatchers.IO)</string>
+
+    <string name="resultado_inicio">Pulsa un botón y mira el spinner</string>
+    <string name="resultado_esperando">Esperando…</string>
+    <string name="resultado_espera">%1$s ha terminado. Hilo: %2$s</string>
+    <string name="resultado_descarga">Recibidos %1$d caracteres. De vuelta en el hilo: %2$s</string>
+    <string name="resultado_error">Error: %1$s</string>
+</resources>
